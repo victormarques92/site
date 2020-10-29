@@ -4,6 +4,8 @@ import { device } from './device';
 export const Row = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: ${props => props.mb && props.mb + 'px'};
+    margin-top: ${props => props.mt && props.mt + 'px'};
 `;
 
 export const Container = styled.div`
@@ -48,6 +50,8 @@ function getWidthGrid(value) {
 }
 
 export const Col = styled.div`
+    margin-bottom: ${props => props.mb && props.mb + 'px'};
+    margin-top: ${props => props.mt && props.mt + 'px'};
     min-height: 1px;
     padding-left: 16px;
     padding-right: 16px;

@@ -10,7 +10,7 @@ export default class Text extends Component {
                 mb={this.props.mb}
                 mt={this.props.mt}
                 size={this.props.size}
-                weigth={this.props.weigth}
+                weight={this.props.weight}
                 uppercase={this.props.uppercase}
             >
                 {this.props.children}
