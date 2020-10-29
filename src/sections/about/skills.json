@@ -1,0 +1,77 @@
+[{
+        "name": "HTML",
+        "strong": true
+    },
+    {
+        "name": "CSS",
+        "strong": true
+    },
+    {
+        "name": "JavaScript",
+        "strong": true
+    },
+    {
+        "name": "NPM",
+        "strong": false
+    },
+    {
+        "name": "Yarn",
+        "strong": false
+    },
+    {
+        "name": "Gulp",
+        "strong": false
+    },
+    {
+        "name": "Git",
+        "strong": true
+    },
+    {
+        "name": "Bootstrap",
+        "strong": false
+    },
+    {
+        "name": "Styled Components",
+        "strong": false
+    },
+    {
+        "name": "jQuery",
+        "strong": true
+    },
+    {
+        "name": "React",
+        "strong": true
+    },
+    {
+        "name": "VueJS",
+        "strong": true
+    },
+    {
+        "name": "PHP",
+        "strong": false
+    },
+    {
+        "name": "Nunjucks",
+        "strong": false
+    },
+    {
+        "name": "Less",
+        "strong": false
+    },
+    {
+        "name": "SASS",
+        "strong": true
+    },
+    {
+        "name": "WordPress",
+        "strong": true
+    },
+    {
+        "name": "Photoshop",
+        "strong": false
+    },
+    {
+        "name": "Zeplin",
+        "strong": true
+    }
+]
