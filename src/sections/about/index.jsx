@@ -9,7 +9,7 @@ import SectionAbout, { Download, Photo, Skill } from './styles';
 
 export default function About({ bio, skills, loading }) {
     return (
-        <SectionAbout>
+        <SectionAbout id={'about'}>
             <Container>
                 <Row>
                     <Col xs={12} md={6}>

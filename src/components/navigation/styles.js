@@ -41,7 +41,7 @@ export const ButtonMobile = styled.button`
     color: ${Colors.primary};
     cursor: pointer;
     font-size: 20px;
-    padding: 8px 16px 4px;
+    padding: 8px 16px;
     text-transform: uppercase;
 
     @media (min-width: 992px) {
@@ -60,11 +60,14 @@ export const Menu = styled.ul`
         }
 
         .link {
-            font-size: 20px;
+            background-color: transparent;
+            cursor: pointer;
             color: ${Colors.grey};
             display: block;
+            font-size: 20px;
             padding: 12px 16px;
             transition: 0.15s ease-in-out;
+            width: 100%;
 
             &:hover {
                 color: ${Colors.primary};

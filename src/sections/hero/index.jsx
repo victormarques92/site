@@ -84,7 +84,7 @@ export default function Hero({ data, loading }) {
     }
 
     return (
-        <SectionHero>
+        <SectionHero id={'hero'}>
             {loading ? (
                 <Loading />
             ) : (

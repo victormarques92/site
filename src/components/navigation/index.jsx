@@ -6,19 +6,15 @@ import Nav, { Content, ButtonMobile, Menu } from './styles';
 const menu = [
     {
         name: 'Home',
-        link: '#!',
+        link: 'hero',
     },
     {
         name: 'Sobre',
-        link: '#!',
-    },
-    {
-        name: 'Skills',
-        link: '#!',
+        link: 'about',
     },
     {
         name: 'Portfólios',
-        link: '#!',
+        link: 'portfolios',
     },
     {
         name: 'Serviços',
@@ -45,6 +41,13 @@ export default function Navigation() {
         window.addEventListener('scroll', onScroll);
     }
 
+    const handleAnchor = anchor => {
+        let section = document.getElementById(anchor);
+
+        section.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        setOpenMenu(false);
+    };
+
     return (
         <Nav shadow={scrollTop > 50}>
             <Container>
@@ -60,9 +63,12 @@ export default function Navigation() {
                     <Menu open={openMenu}>
                         {menu.map((item, index) => (
                             <li key={index} className="item">
-                                <a href={item.link} className="link">
+                                <button
+                                    onClick={() => handleAnchor(item.link)}
+                                    className="link"
+                                >
                                     {item.name}
-                                </a>
+                                </button>
                             </li>
                         ))}
                     </Menu>
