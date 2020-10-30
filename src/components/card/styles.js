@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Colors, { Opacity } from '../../styles/colors';
+import { Colors, Opacity } from '../../styles';
 
-export const Box = styled.div`
+const Box = styled.div`
     background-color: ${Colors.white};
     border-radius: 8px;
     box-shadow: 0 0 12px -4px ${Colors.black + Opacity.op20};
@@ -14,3 +14,5 @@ export const Box = styled.div`
         transform: scale(1.1);
     }
 `;
+
+export default Box;

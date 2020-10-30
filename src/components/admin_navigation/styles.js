@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Colors, { Opacity } from '../../styles/colors';
+import { Colors, Opacity } from '../../styles';
 
 const Nav = styled.nav`
     background-color: ${Colors.white};

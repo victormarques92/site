@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Navigation from '../../components/navigation';
+import { Navigation } from '../../components';
+import { About, Hero, Timeline } from '../../sections';
 import firebase from '../../domain/firebase';
-import About from '../../sections/about';
-import Hero from '../../sections/hero';
 
 export default function Home() {
     const [profile, setProfile] = useState();
@@ -33,6 +32,7 @@ export default function Home() {
 
             <Hero data={profile} loading={!profile} />
             <About bio={profile?.bio} skills={skills} loading={!skills} />
+            <Timeline />
         </>
     );
 }

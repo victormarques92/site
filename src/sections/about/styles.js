@@ -1,10 +1,8 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import { Colors } from '../../styles';
 
 const SectionAbout = styled.section`
-    min-height: 100vh;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding: 80px 0;
 
     @media (max-width: 768px) {
         text-align: center;

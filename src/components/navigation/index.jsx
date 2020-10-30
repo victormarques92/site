@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from '../../styles/grid';
-import Nav, { Content, ButtonMobile, Menu } from './styles';
 import brand from '../../assets/images/victor.svg';
+import { Container } from '../../styles';
+import Nav, { Content, ButtonMobile, Menu } from './styles';
 
 const menu = [
     {

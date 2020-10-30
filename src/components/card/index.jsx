@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Box } from './styles';
+import React from 'react';
+import Box from './styles';
 
-export default class Card extends Component {
-    render() {
-        return <Box>{this.props.children}</Box>;
-    }
+function Card({ children }) {
+    return <Box>{children}</Box>;
 }
+
+export default Card;

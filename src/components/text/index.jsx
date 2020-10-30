@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import { Txt } from './styles';
+import React from 'react';
+import Txt from './styles';
 
-export default class Text extends Component {
-    render() {
-        return (
-            <Txt
-                align={this.props.align}
-                color={this.props.color}
-                mb={this.props.mb}
-                mt={this.props.mt}
-                size={this.props.size}
-                weight={this.props.weight}
-                uppercase={this.props.uppercase}
-            >
-                {this.props.children}
-            </Txt>
-        );
-    }
+function Text({ children, align, color, mb, mt, size, weight, uppercase }) {
+    return (
+        <Txt
+            align={align}
+            color={color}
+            mb={mb}
+            mt={mt}
+            size={size}
+            weight={weight}
+            uppercase={uppercase}
+        >
+            {children}
+        </Txt>
+    );
 }
+
+export default Text;

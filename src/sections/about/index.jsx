@@ -3,9 +3,8 @@ import { AiOutlineFire } from 'react-icons/ai';
 import { FiDownload } from 'react-icons/fi';
 import CV from '../../assets/CV-Victor_Marques.pdf';
 import Img from '../../assets/images/ab-img.png';
-import Loading from '../../components/loading';
-import Text from '../../components/text';
-import { Col, Container, Row } from '../../styles/grid';
+import { Loading, Text } from '../../components';
+import { Col, Container, Row } from '../../styles';
 import SectionAbout, { Download, Photo, Skill } from './styles';
 
 export default function About({ bio, skills, loading }) {

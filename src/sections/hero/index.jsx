@@ -7,12 +7,10 @@ import {
     FiInstagram,
     FiLinkedin,
 } from 'react-icons/fi';
-import Loading from '../../components/loading';
-import Text from '../../components/text';
-import Colors from '../../styles/colors';
-import { Col, Container, Row } from '../../styles/grid';
-import SectionHero, { ListContacts, Midias, Photo } from './styles';
 import ImgProfile from '../../assets/images/profile.jpg';
+import { Loading, Text } from '../../components';
+import { Col, Colors, Container, Row } from '../../styles';
+import SectionHero, { ListContacts, Midias, Photo } from './styles';
 
 export default function Hero({ data, loading }) {
     function renderListContacts() {

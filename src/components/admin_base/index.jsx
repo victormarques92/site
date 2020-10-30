@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container } from '../../styles/grid';
 import AdminNavigation from '../admin_navigation';
+import { Container } from '../../styles';
+
 import Box from './styles';
 
 export default function Base({ children }) {

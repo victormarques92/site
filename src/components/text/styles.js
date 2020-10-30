@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import { Colors } from '../../styles';
 
-export const Txt = styled.p`
+const Txt = styled.p`
     color: ${props => (props.color ? props.color : Colors.grey)};
     font-size: ${props => (props.size ? props.size : 16)}px;
     font-weight: ${props => props.weight && props.weight};
@@ -11,3 +11,5 @@ export const Txt = styled.p`
     text-align: ${props => props.align && props.align};
     text-transform: ${props => props.uppercase && 'uppercase'};
 `;
+
+export default Txt;

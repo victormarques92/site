@@ -1,0 +1,183 @@
+{
+    "profile": {
+        "address": {
+            "city": "Santos",
+            "country": "Brasil",
+            "state": "São Paulo"
+        },
+        "bio": "Olá, sou Victor, desenvolvedor front-end baseado em Santos. Tenho vasta experiência em design, construção e personalização de sites. Também sou bom em",
+        "email": "victormatheus92",
+        "job": "Desenvolvedor Front-end",
+        "midias": [
+            {
+                "name": "github",
+                "url": "https://github.com/victormarques92"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/victormarques92"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/victormatheus92"
+            }
+        ],
+        "name": {
+            "firstName": "Victor",
+            "lastName": "Marques"
+        },
+        "phone": "55 13 99613-2418"
+    },
+    "skills": [
+        {
+            "name": "HTML",
+            "strong": true
+        },
+        {
+            "name": "CSS",
+            "strong": true
+        },
+        {
+            "name": "JavaScript",
+            "strong": true
+        },
+        {
+            "name": "NPM",
+            "strong": false
+        },
+        {
+            "name": "Yarn",
+            "strong": false
+        },
+        {
+            "name": "Gulp",
+            "strong": false
+        },
+        {
+            "name": "Git",
+            "strong": true
+        },
+        {
+            "name": "Bootstrap",
+            "strong": false
+        },
+        {
+            "name": "Styled Components",
+            "strong": false
+        },
+        {
+            "name": "jQuery",
+            "strong": true
+        },
+        {
+            "name": "React",
+            "strong": true
+        },
+        {
+            "name": "VueJS",
+            "strong": true
+        },
+        {
+            "name": "PHP",
+            "strong": false
+        },
+        {
+            "name": "Nunjucks",
+            "strong": false
+        },
+        {
+            "name": "Less",
+            "strong": false
+        },
+        {
+            "name": "SASS",
+            "strong": true
+        },
+        {
+            "name": "WordPress",
+            "strong": true
+        },
+        {
+            "name": "Photoshop",
+            "strong": false
+        },
+        {
+            "name": "Zeplin",
+            "strong": true
+        }
+    ],
+    "timeline": [
+        {
+            "period": {
+                "start": "Thu Oct 01 2020 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": null
+            },
+            "company": "Spread Tecnologia",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQHGfegrQlVAQQ/company-logo_100_100/0?e=1612396800&v=beta&t=FLJrSig1jD3evXJgDC-28RkUdnjP1KWVzEoBwjgIGkc"
+        },
+        {
+            "period": {
+                "start": "Tue Sep 01 2020 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Thu Oct 01 2020 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "Jüssi",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQFmE_xFrf5dhg/company-logo_100_100/0?e=1612396800&v=beta&t=tVWMnHfh1B2-l8UP9Z8ftNNf4SgIGLckjn1aQyHQGuM"
+        },
+        {
+            "period": {
+                "start": "Mon Jul 01 2019 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Sat Aug 01 2020 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "Docway Co.",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQEJhVlXhNa3Eg/company-logo_100_100/0?e=1612396800&v=beta&t=-5VAqdXrJw4muK7Oc4t3KHb6zvmb_CQ7pvZQD0g-mB0"
+        },
+        {
+            "period": {
+                "start": "Fri Sep 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Mon Jul 01 2019 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "MJV Technology & Innovation Brasil",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQEJhVlXhNa3Eg/company-logo_100_100/0?e=1612396800&v=beta&t=-5VAqdXrJw4muK7Oc4t3KHb6zvmb_CQ7pvZQD0g-mB0"
+        },
+        {
+            "period": {
+                "start": "Sat Jul 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Wed Aug 01 2018 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "Juicee",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQFFfxrkoodZYA/company-logo_100_100/0?e=1612396800&v=beta&t=vyKRY2a3L7xa5Ft-Wd4RVx5XHjUTdi_A8qtXqZpI4Mw"
+        },
+        {
+            "period": {
+                "start": "Thu Jun 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Fri Sep 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "PROCFIT GESTÃO ORIENTADA A PROCESSOS",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQGimFjpHEFVcg/company-logo_100_100/0?e=1612396800&v=beta&t=8QAHoLHyQVSqyOdHtccuqqKYWldfQ6iUAqKcoua69DY"
+        },
+        {
+            "period": {
+                "start": "Mon May 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Thu Jun 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "Corebiz - Marketing Cognitivo",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQFa3VqmdEbv1w/company-logo_100_100/0?e=1612396800&v=beta&t=W9gj6ZaWosXOiK2Xm9fC1hZwse6zk1SpZTJSTKKwdmc"
+        },
+        {
+            "period": {
+                "start": "Fri Jan 01 2016 00:00:00 GMT-0200 (Horário de Verão de Brasília)",
+                "end": "Mon May 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
+            },
+            "company": "HKD - Agência",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4E0BAQHGzccIhFU4Fg/company-logo_100_100/0?e=1612396800&v=beta&t=uYZc0PmhyTTuwfuXZjP3U0jCQqLKNrIlhE51LFUJ0aQ"
+        },
+        {
+            "period": {
+                "start": "Fri May 01 2015 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
+                "end": "Tue Dec 01 2015 00:00:00 GMT-0200 (Horário de Verão de Brasília)"
+            },
+            "company": "MJV Technology & Innovation Brasil",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4E0BAQGgcB7CBZd_2Q/company-logo_100_100/0?e=1612396800&v=beta&t=yhifGfrxIiInHbl1ubmBAJ4sD4j57gRFzzPySGoQIkw"
+        }
+    ]
+}

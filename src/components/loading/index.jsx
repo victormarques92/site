@@ -1,6 +1,6 @@
 import React from 'react';
 import { BounceLoader } from 'react-spinners';
-import Colors from '../../styles/colors';
+import { Colors } from '../../styles';
 
 export default function Loading() {
     return (
