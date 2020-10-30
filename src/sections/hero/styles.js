@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Colors from '../../styles/colors';
 
 const SectionHero = styled.section`
-    min-height: 100vh;
     padding: 80px 0;
 
     @media (max-width: 768px) {

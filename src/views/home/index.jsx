@@ -6,10 +6,12 @@ import firebase from '../../domain/firebase';
 export default function Home() {
     const [profile, setProfile] = useState();
     const [skills, setSkills] = useState();
+    const [timeline, setTimeline] = useState();
 
     useEffect(() => {
         getApiProfile();
         getApiSkills();
+        getTimeline();
     }, []);
 
     function getApiProfile() {
@@ -26,13 +28,20 @@ export default function Home() {
         });
     }
 
+    function getTimeline() {
+        const timeline = firebase.database().ref('timeline');
+        timeline.on('value', function (data) {
+            setTimeline(data.val());
+        });
+    }
+
     return (
         <>
             <Navigation />
 
             <Hero data={profile} loading={!profile} />
             <About bio={profile?.bio} skills={skills} loading={!skills} />
-            <Timeline />
+            <Timeline data={timeline} loading={!timeline} />
         </>
     );
 }
