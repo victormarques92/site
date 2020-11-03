@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.js": "/site/static/js/main.c9b9f068.chunk.js",
-    "main.js.map": "/site/static/js/main.c9b9f068.chunk.js.map",
+    "main.js": "/site/static/js/main.4a31c969.chunk.js",
+    "main.js.map": "/site/static/js/main.4a31c969.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.85b6f7e0.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.85b6f7e0.js.map",
-    "static/js/2.a1280bce.chunk.js": "/site/static/js/2.a1280bce.chunk.js",
-    "static/js/2.a1280bce.chunk.js.map": "/site/static/js/2.a1280bce.chunk.js.map",
+    "static/js/2.a72a8392.chunk.js": "/site/static/js/2.a72a8392.chunk.js",
+    "static/js/2.a72a8392.chunk.js.map": "/site/static/js/2.a72a8392.chunk.js.map",
     "index.html": "/site/index.html",
-    "precache-manifest.93f8926c0f6ebaf71d20926d29f98ead.js": "/site/precache-manifest.93f8926c0f6ebaf71d20926d29f98ead.js",
+    "precache-manifest.63c62e43a4097827877e47e1f669bc52.js": "/site/precache-manifest.63c62e43a4097827877e47e1f669bc52.js",
     "service-worker.js": "/site/service-worker.js",
-    "static/js/2.a1280bce.chunk.js.LICENSE.txt": "/site/static/js/2.a1280bce.chunk.js.LICENSE.txt",
+    "static/js/2.a72a8392.chunk.js.LICENSE.txt": "/site/static/js/2.a72a8392.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/site/static/media/404.f4c0af19.svg",
     "static/media/CV-Victor_Marques.pdf": "/site/static/media/CV-Victor_Marques.df0f5629.pdf",
     "static/media/ab-img.png": "/site/static/media/ab-img.8d7ae5ac.png",
+    "static/media/hkd.png": "/site/static/media/hkd.88f0fe79.png",
+    "static/media/inline-experience.png": "/site/static/media/inline-experience.7fdbceb8.png",
+    "static/media/juicee-design.png": "/site/static/media/juicee-design.28ec46c5.png",
+    "static/media/juicee.png": "/site/static/media/juicee.d76cd6f0.png",
+    "static/media/kzas.png": "/site/static/media/kzas.68b72ff5.png",
     "static/media/profile.jpg": "/site/static/media/profile.1b7617df.jpg",
+    "static/media/ricardo-ribeiro.png": "/site/static/media/ricardo-ribeiro.4a52a334.png",
     "static/media/victor.svg": "/site/static/media/victor.dcdf8b18.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.85b6f7e0.js",
-    "static/js/2.a1280bce.chunk.js",
-    "static/js/main.c9b9f068.chunk.js"
+    "static/js/2.a72a8392.chunk.js",
+    "static/js/main.4a31c969.chunk.js"
   ]
 }
