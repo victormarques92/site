@@ -12,16 +12,6 @@ export const Line = styled.ul`
     overflow-x: auto;
     padding-bottom: 12px;
 
-    &::before {
-        background-color: ${Colors.light};
-        content: '';
-        height: 2px;
-        left: 0;
-        position: absolute;
-        top: calc(50% - 1px);
-        width: 100%;
-    }
-
     &::after {
         background-color: ${Colors.light};
         border-radius: 50%;
@@ -29,7 +19,7 @@ export const Line = styled.ul`
         height: 16px;
         left: 0;
         position: absolute;
-        top: calc(50% - 8px);
+        top: 22px;
         width: 16px;
     }
 
@@ -40,7 +30,17 @@ export const Line = styled.ul`
         justify-content: flex-end;
         max-width: 100%;
         min-width: 120px;
-        z-index: 10;
+        position: relative;
+
+        &::before {
+            background-color: ${Colors.light};
+            content: '';
+            height: 2px;
+            left: 0;
+            position: absolute;
+            top: calc(50% - 1px);
+            width: 100%;
+        }
     }
 `;
 
@@ -56,6 +56,7 @@ export const Brand = styled.div`
     overflow: hidden;
     padding: 8px;
     width: 60px;
+    z-index: 10;
 
     img {
         border-radius: 50%;
