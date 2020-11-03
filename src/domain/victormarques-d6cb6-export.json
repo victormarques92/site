@@ -6,7 +6,7 @@
             "state": "São Paulo"
         },
         "bio": "Olá, sou Victor, desenvolvedor front-end baseado em Santos. Tenho vasta experiência em design, construção e personalização de sites. Também sou bom em",
-        "email": "victormatheus92",
+        "email": "victormatheus92@gmail.com",
         "job": "Desenvolvedor Front-end",
         "midias": [
             {
@@ -178,6 +178,62 @@
             },
             "company": "Spread Tecnologia",
             "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQHGfegrQlVAQQ/company-logo_100_100/0?e=1612396800&v=beta&t=FLJrSig1jD3evXJgDC-28RkUdnjP1KWVzEoBwjgIGkc"
+        }
+    ],
+    "portfolios": [
+        {
+            "title": "Agência HKD",
+            "description": "Lorem ipsum dolor...",
+            "preview": "hkd",
+            "website": "http://agenciahkd.com/"
+        },
+        {
+            "title": "Juicee",
+            "description": "Lorem ipsum dolor...",
+            "preview": "juicee",
+            "website": "https://juicee.io/"
+        },
+        {
+            "title": "Juicee Design",
+            "description": "Lorem ipsum dolor...",
+            "preview": "juicee-design",
+            "website": "https://juicee.design/"
+        },
+        {
+            "title": "Ricardo Ribeiro",
+            "description": "Lorem ipsum dolor...",
+            "preview": "ricardo-ribeiro",
+            "website": "https://ricardoribeiro.pt/"
+        },
+        {
+            "title": "Inline Experience",
+            "description": "Lorem ipsum dolor...",
+            "preview": "inline-experience",
+            "website": "http://www.inlinexperience.com/"
+        },
+        {
+            "title": "Kzas",
+            "description": "Lorem ipsum dolor...",
+            "preview": "kzas",
+            "website": "https://kzas.ai/"
+        }
+    ],
+    "partners": [
+        {
+            "name": "Agência HKD",
+            "brand": "https://agenciahkd.com.br/wp-content/uploads/2017/01/hkd-logo.jpg"
+        },
+        {
+            "name": "Juicee",
+            "brand": "https://juicee.io/logo.svg"
+        },
+        {
+            "name": "Kzas",
+            "brand": "https://proprietario.kzas.ai/_nuxt/img/feb6935.png"
+        },
+        {
+            "name": "Nota Registrada",
+            "brand": "https://www.notaregistrada.com.br/Content/assets/images/logo.png"
         }
     ]
 }

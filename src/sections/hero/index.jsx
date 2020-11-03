@@ -12,7 +12,7 @@ import { Loading, Text } from '../../components';
 import { Col, Colors, Container, Row } from '../../styles';
 import SectionHero, { ListContacts, Midias, Photo } from './styles';
 
-export default function Hero({ data, loading }) {
+export default function Hero({ data }) {
     function renderListContacts() {
         return (
             <ListContacts>
@@ -85,7 +85,7 @@ export default function Hero({ data, loading }) {
 
     return (
         <SectionHero id={'hero'}>
-            {loading ? (
+            {!data ? (
                 <Loading />
             ) : (
                 <Container>

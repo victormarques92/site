@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import { Navigation } from '../../components';
-import { About, Hero, Timeline } from '../../sections';
+import { About, Hero, Partners, Portfolios, Timeline } from '../../sections';
 import firebase from '../../domain/firebase';
 
 export default function Home() {
     const [profile, setProfile] = useState();
     const [skills, setSkills] = useState();
     const [timeline, setTimeline] = useState();
+    const [partners, setPartners] = useState();
+    const [portfolios, setPortfolios] = useState();
 
     useEffect(() => {
         getApiProfile();
         getApiSkills();
         getTimeline();
+        getPortfolios();
+        getPartners();
     }, []);
 
     function getApiProfile() {
@@ -35,13 +39,29 @@ export default function Home() {
         });
     }
 
+    function getPortfolios() {
+        const portfolios = firebase.database().ref('portfolios');
+        portfolios.on('value', function (data) {
+            setPortfolios(data.val());
+        });
+    }
+
+    function getPartners() {
+        const partners = firebase.database().ref('partners');
+        partners.on('value', function (data) {
+            setPartners(data.val());
+        });
+    }
+
     return (
         <>
             <Navigation />
 
-            <Hero data={profile} loading={!profile} />
-            <About bio={profile?.bio} skills={skills} loading={!skills} />
-            <Timeline data={timeline} loading={!timeline} />
+            <Hero data={profile} />
+            <About bio={profile?.bio} skills={skills} />
+            <Timeline data={timeline} />
+            <Portfolios data={portfolios} />
+            <Partners data={partners} />
         </>
     );
 }

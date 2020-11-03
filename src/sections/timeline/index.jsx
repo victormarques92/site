@@ -4,7 +4,7 @@ import { Loading, Text } from '../../components';
 import { Container } from '../../styles';
 import SectionTimeline, { Brand, Line } from './styles';
 
-export default function Timeline({ data, loading }) {
+export default function Timeline({ data }) {
     const date = date => {
         let mm = moment(date).format('MM');
         let year = moment(date).format('YYYY');
@@ -65,7 +65,7 @@ export default function Timeline({ data, loading }) {
 
     return (
         <SectionTimeline>
-            {loading ? (
+            {!data ? (
                 <Loading />
             ) : (
                 <Container>

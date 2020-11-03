@@ -7,7 +7,7 @@ import { Loading, Text } from '../../components';
 import { Col, Container, Row } from '../../styles';
 import SectionAbout, { Download, Photo, Skill } from './styles';
 
-export default function About({ bio, skills, loading }) {
+export default function About({ bio, skills }) {
     return (
         <SectionAbout id={'about'}>
             <Container>
@@ -16,7 +16,7 @@ export default function About({ bio, skills, loading }) {
                         <Photo src={Img} alt="Figura" />
                     </Col>
                     <Col xs={12} md={6}>
-                        {loading ? (
+                        {!skills ? (
                             <Loading />
                         ) : (
                             <>

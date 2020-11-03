@@ -2,8 +2,11 @@ import styled from 'styled-components';
 import { device } from './device';
 
 export const Row = styled.div`
+    align-items: ${props => props.valign && props.valign};
     display: flex;
+    flex-direction: ${props => props.reverse && 'row-reverse'};
     flex-wrap: wrap;
+    justify-content: ${props => props.halign && props.halign};
     margin-bottom: ${props => props.mb && props.mb + 'px'};
     margin-top: ${props => props.mt && props.mt + 'px'};
 `;
@@ -53,8 +56,8 @@ export const Col = styled.div`
     margin-bottom: ${props => props.mb && props.mb + 'px'};
     margin-top: ${props => props.mt && props.mt + 'px'};
     min-height: 1px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: ${props => (props.pl ? props.pl : 16)}px;
+    padding-right: ${props => (props.pr ? props.pr : 16)}px;
     position: relative;
     width: 100%;
 
