@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Colors } from '../../styles';
 
 const SectionAbout = styled.section`
-    padding: 80px 0;
+    padding-top: 132px;
 
     @media (max-width: 768px) {
         text-align: center;

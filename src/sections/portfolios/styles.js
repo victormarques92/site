@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import { Colors } from '../../styles';
 
 const SectionPortfolios = styled.section`
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-top: 132px;
 `;
 
 export const Info = styled.div`
@@ -12,7 +11,28 @@ export const Info = styled.div`
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    padding: 80px 32px 80px 80px;
+    padding: 80px 32px;
+`;
+
+export const Skills = styled.ul`
+    display: flex;
+    margin-top: 20px;
+
+    .item {
+        align-items: center;
+        background-color: ${Colors.light};
+        border-radius: 4px;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        margin-right: 8px;
+        width: 40px;
+
+        svg {
+            color: ${Colors.primary};
+            font-size: 24px;
+        }
+    }
 `;
 
 export const Preview = styled.div`
@@ -43,9 +63,10 @@ export const Button = styled.a`
     color: ${Colors.primary};
     cursor: pointer;
     display: block;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
     margin: 40px auto 0;
-    padding: 16px 40px;
+    padding: 8px 20px;
     text-transform: uppercase;
     transition: 0.15s ease-in-out;
 

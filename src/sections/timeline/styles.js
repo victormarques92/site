@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Colors } from '../../styles';
 
 const SectionTimeline = styled.section`
-    padding-bottom: 80px;
+    padding-top: 80px;
 `;
 
 export const Line = styled.ul`

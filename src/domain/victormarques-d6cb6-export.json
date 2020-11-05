@@ -152,8 +152,8 @@
                 "start": "Fri Sep 01 2017 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
                 "end": "Mon Jul 01 2019 00:00:00 GMT-0300 (Horário Padrão de Brasília)"
             },
-            "company": "MJV Technology & Innovation Brasil",
-            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQEJhVlXhNa3Eg/company-logo_100_100/0?e=1612396800&v=beta&t=-5VAqdXrJw4muK7Oc4t3KHb6zvmb_CQ7pvZQD0g-mB0"
+            "company": "Bradesco Seguros",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQG58lvSRIpNAA/company-logo_200_200/0?e=1612396800&v=beta&t=Lr5uPulK41QoZ6BEsdK4bJ48c7BaxnDeIBDacigXTGk"
         },
         {
             "period": {
@@ -176,44 +176,98 @@
                 "start": "Thu Oct 01 2020 00:00:00 GMT-0300 (Horário Padrão de Brasília)",
                 "end": null
             },
-            "company": "Spread Tecnologia",
-            "brand": "https://media-exp1.licdn.com/dms/image/C4D0BAQHGfegrQlVAQQ/company-logo_100_100/0?e=1612396800&v=beta&t=FLJrSig1jD3evXJgDC-28RkUdnjP1KWVzEoBwjgIGkc"
+            "company": "CVC Corp",
+            "brand": "https://media-exp1.licdn.com/dms/image/C4E0BAQE5XN7xGw4YDQ/company-logo_200_200/0?e=1612396800&v=beta&t=dT3gEQQf9Byo9lsgttYw2n3JiFu3OTFahqEqVu1A4uU"
         }
     ],
     "portfolios": [
         {
             "title": "Agência HKD",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website criado com painel administrativo utilizando WordPress.",
+            "location": "São Paulo, Brasil",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "Bootstrap" },
+                { "name": "WordPress" }
+            ],
             "preview": "hkd",
             "website": "http://agenciahkd.com/"
         },
         {
             "title": "Juicee",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website de agência de desenvolvimento criado com VueJS.",
+            "location": "Lisboa, Portugal",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "vuejs" },
+                { "name": "sass" }
+            ],
             "preview": "juicee",
             "website": "https://juicee.io/"
         },
         {
             "title": "Juicee Design",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website de agência de design criado com VueJS.",
+            "location": "Lisboa, Portugal",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "vuejs" },
+                { "name": "sass" }
+            ],
             "preview": "juicee-design",
             "website": "https://juicee.design/"
         },
         {
             "title": "Ricardo Ribeiro",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website criado com o objeto de divulgar e informar a agenda de shows. Criado com base PHP.",
+            "location": "Lisboa, Portugal",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "jquery" },
+                { "name": "less" },
+                { "name": "php" },
+                { "name": "gulp" },
+                { "name": "bootstrap" }
+            ],
             "preview": "ricardo-ribeiro",
             "website": "https://ricardoribeiro.pt/"
         },
         {
             "title": "Inline Experience",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website de software de timesheet.",
+            "location": "Lisboa, Portugal",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "jquery" },
+                { "name": "sass" },
+                { "name": "php" },
+                { "name": "gulp" }
+            ],
             "preview": "inline-experience",
             "website": "http://www.inlinexperience.com/"
         },
         {
             "title": "Kzas",
-            "description": "Lorem ipsum dolor...",
+            "description": "Website de compra e venda e imoveis",
+            "location": "São Paulo, Brasil",
+            "skills": [
+                { "name": "HTML" },
+                { "name": "CSS" },
+                { "name": "JavaScript" },
+                { "name": "jquery" },
+                { "name": "sass" },
+                { "name": "gulp" }
+            ],
             "preview": "kzas",
             "website": "https://kzas.ai/"
         }
