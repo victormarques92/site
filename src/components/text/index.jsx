@@ -1,11 +1,22 @@
 import React from 'react';
 import Txt from './styles';
 
-function Text({ children, align, color, mb, mt, size, weight, uppercase }) {
+function Text({
+    children,
+    align,
+    color,
+    lineHeight,
+    mb,
+    mt,
+    size,
+    weight,
+    uppercase,
+}) {
     return (
         <Txt
             align={align}
             color={color}
+            lineHeight={lineHeight}
             mb={mb}
             mt={mt}
             size={size}

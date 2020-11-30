@@ -18,11 +18,11 @@ const menu = [
     },
     {
         name: 'Serviços',
-        link: '#!',
+        link: 'services',
     },
     {
         name: 'Contato',
-        link: '#!',
+        link: 'contact',
     },
 ];
 

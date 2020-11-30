@@ -3,7 +3,13 @@ import { Loading, Text } from '../../components';
 import { Col, Row } from '../../styles';
 import SectionPartners, { Brand, Button } from './styles';
 
-export default function Partners({ data }) {
+export default function Partners({ data, buttonAction }) {
+    const handleAnchor = anchor => {
+        let section = document.getElementById(anchor);
+
+        section.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    };
+
     return (
         <SectionPartners>
             <Text size={32} weight={700} align={'center'} mb={32}>
@@ -24,7 +30,9 @@ export default function Partners({ data }) {
                 </Row>
             )}
 
-            <Button>Seja um parceiro</Button>
+            <Button onClick={() => handleAnchor('contact')}>
+                Seja um parceiro
+            </Button>
         </SectionPartners>
     );
 }

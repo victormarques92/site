@@ -289,5 +289,19 @@
             "name": "Nota Registrada",
             "brand": "https://www.notaregistrada.com.br/Content/assets/images/logo.png"
         }
+    ],
+    "services": [
+        {
+            "title": "Recorte HTML/CSS",
+            "description": "Passar o layout recebido para HTML, CSS, e JavaScript atuando com pixel perfect."
+        },
+        {
+            "title": "Sistemas Web",
+            "description": "Sistemas de gerenciamento, controle de acesso, dashboards e etc."
+        },
+        {
+            "title": "WordPress",
+            "description": "Blogs, lojas vistuais e sites institucionais com painel de gerenciamento de conteúdo."
+        }
     ]
 }

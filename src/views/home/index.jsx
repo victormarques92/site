@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Navigation } from '../../components';
-import { About, Hero, Partners, Portfolios, Timeline } from '../../sections';
+import {
+    About,
+    Hero,
+    Partners,
+    Portfolios,
+    Services,
+    Timeline,
+} from '../../sections';
 import firebase from '../../domain/firebase';
 
 export default function Home() {
@@ -9,6 +16,7 @@ export default function Home() {
     const [timeline, setTimeline] = useState();
     const [partners, setPartners] = useState();
     const [portfolios, setPortfolios] = useState();
+    const [services, setServices] = useState();
 
     useEffect(() => {
         getApiProfile();
@@ -16,6 +24,7 @@ export default function Home() {
         getTimeline();
         getPortfolios();
         getPartners();
+        getServices();
     }, []);
 
     function getApiProfile() {
@@ -53,6 +62,13 @@ export default function Home() {
         });
     }
 
+    function getServices() {
+        const services = firebase.database().ref('services');
+        services.on('value', function (data) {
+            setServices(data.val());
+        });
+    }
+
     return (
         <>
             <Navigation />
@@ -62,6 +78,7 @@ export default function Home() {
             <Timeline data={timeline} />
             <Portfolios data={portfolios} />
             <Partners data={partners} />
+            <Services data={services} />
         </>
     );
 }
