@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Navigation } from '../../components';
 import {
     About,
+    Contacts,
     Hero,
     Partners,
     Portfolios,
@@ -79,6 +80,7 @@ export default function Home() {
             <Portfolios data={portfolios} />
             <Partners data={partners} />
             <Services data={services} />
+            <Contacts />
         </>
     );
 }

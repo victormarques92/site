@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Colors, Opacity } from '../../styles';
 
 const SectionServices = styled.section`
-    padding-top: 80px;
+    padding-top: 132px;
 `;
 
 export const Card = styled.div`
