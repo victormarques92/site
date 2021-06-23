@@ -22,7 +22,7 @@
         "sweetalert": "^2.1.2",
         "yup": "^0.29.3"
     },
-    "homepage": "https://victormarques92.github.io/site",
+    "homepage": ".",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
